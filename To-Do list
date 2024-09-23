@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <div class="bg-container">
+        <div class="main-heading">
+            <h1>Todolist</h1>
+            <p> Each day I will accomplish one thing on my todolist.</p>
+        </div>
+        <div class="paragraph">
+            <h3>Read a Book</h3>
+            <p>I Don't think that human race will survive the next thousand years,unless we spread into space
+                There are too amny accidents that can befall life on a single planet.But I'm an optimist....</p>
+        </div>
+        <div class="main-heading">
+            <button class="button">Start</button>
+            <p class="extra">Don't skip introduction</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+.main-heading {
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+}
+
+.paragraph {
+    color: white;
+    font-family: Roboto;
+}
+
+.button {
+    background-color: orange;
+    font-family: Roboto;
+    color: white;
+    height: 35px;
+    width: 70px;
+    border-radius: 1px;
+}
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.extra {
+    text-decoration: underline;
+}
