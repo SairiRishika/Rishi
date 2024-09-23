@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg-container">
+        <h1 class="heading">Rahul</h1>
+        <div class="text">
+            <p class="sent-text ">Hello Rahul,how are you?</p>
+            <p class="received-text">Hi Varakumar, I am good. How about you?</p>
+            <p class="sent-text ">I'm fine. I published my website recently</p>
+            <p class="received-text">Oh great Varakumar! Can you send me the URL?</p>
+            <p class="sent-text ">https://varakumar.ccbp.tech</p>
+            <p class="received-text">Awesome Varakumar, where did you learn?</p>
+            <p class="sent-text ">NxtWave CCBP 4.0 Program</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+.heading {
+    background-color: #323f4b;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+    background-size: cover;
+}
+
+.text {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 8px;
+}
+
+.sent-text {
+    background-color: #47a3f3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: right;
+    font-size: 13px;
+    padding: 12px
+}
+
+.received-text {
+    background-color: #52606d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+    font-size: 13px;
+    padding: 12px;
+}
